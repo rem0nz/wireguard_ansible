@@ -1,0 +1,2 @@
+for non-root users . use --become in the execution command. 
+EX:  ansible-playbook wireguard.yml -u remon --become -k -i hosts
